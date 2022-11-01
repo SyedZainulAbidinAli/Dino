@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DINO 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onkeydown="ragnarok()" id="body"><div id="blur">
+    <h1 id="info">PRESS ANY KEY TO CONTINUE</h1>
+    <h2 id="q-score">SCORE:<h1 id="scores"></h1>
+    </h2>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h2 id="q-high">HIGH SCORE:<h1 id="highScore"></h1>
+    </h2>
+    <input type="number" id="auto1" value="2" placeholder="auto1">
+    <input type="number" id="auto2" placeholder="auto2">
+    <input type="number" id="auto3" placeholder="auto3">
+    <input type="number" id="auto4" placeholder="auto4">
+    <input type="number" id="auto5" placeholder="auto5">
+    <input type="text" id="auto6" placeholder="auto6">
+    <input type="number" id="auto7" placeholder="auto7" value="0">
+    <input type="number" id="auto8" placeholder="auto8">
+    <span id="thor" onclick="ragnarok()"></span>
+    <div id="gorr">
+        <span id="gorr1" class="gor"></span>
+    </div>
+    <button onclick="start()" id="but">PLAY</button></div>
+    <center>
+        <div id="gameOver">
+            <span id="hist" cols="30" rows="10"><button onclick="hide()" id="historyBtn">GO BACK</button></span><br><br>
+            <h1>GAME OVER</h1>
+            <h2>YOUR SCORE:<span id="score"></span></h2>
+            <button onclick="reload()" id="playAgain">PLAY AGAIN !!!
+            </button>
+            <button id="history" onclick="histor()">HISTORY</button>
+        </div>
+    </center>
+</body>
+<script src="app.js"></script>
+
+</html>

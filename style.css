@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(161, 0, 236);
+    background: url(background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#thor {
+    background-color: rgb(161, 0, 236);
+    border: 10px solid yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40%;
+    left: 01%;
+    transition: 0.3s;
+}
+
+#gorr {
+    width: max-content;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+}
+
+.gor {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #000;
+    display: inline-block;
+    margin-right: 100px;
+    transition: 0.3ms;
+    border-radius: 5px;
+}
+
+#gameOver {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0.489);
+    display: none;
+    transition: 0.3s;
+}
+
+#gameOver>h1 {
+    font-size: 100px;
+
+}
+
+#gameOver>h2>span,
+#gameOver>h2 {
+    font-size: 80px;
+}
+
+#auto1,
+#auto2,
+#auto3,
+#auto4,
+#auto5,
+#auto6,
+#auto7,
+#auto8,
+#but {
+    display: none;
+}
+
+#playAgain {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(138, 0, 0);
+    color: #fff;
+    border-radius: 5px;
+}
+
+#info,
+#scores,
+#highScore,
+#q-score,
+#q-high {
+    color: #fff;
+}
+
+#scores,
+#highScore {
+    display: inline-block;
+    font-size: 60px;
+}
+
+#q-score,
+#q-high {
+    display: none;
+    font-size: 40px;
+}
+
+#hist {
+    background-color: rgba(137, 43, 226, 0.894);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    font-size: 40px;
+    color: #fff;
+}
+
+#historyBtn {
+    background-color: green;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 63, 0);
+    font-weight: bold;
+    position: absolute;
+    left: 03%;
+    top: 05%;
+}
+
+#history {
+    width: 130px;
+    height: 50px;
+    background-color: grey;
+    border: 7px solid rgb(60, 60, 60);
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#history:hover {
+    background-color: rgb(89, 89, 89);
+    transition: 0.2s;
+}
